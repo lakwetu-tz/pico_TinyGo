@@ -3,7 +3,7 @@ This are example code for TinyGo on raspberry pi pico200
 
 # Get Started with TinyGo
 
-# 1. Install Go Programming language(https://go.dev/doc/install)
+## 1. Install Go Programming language(https://go.dev/doc/install)
 
    Remove any previous Go installation by deleting the /usr/local/go folder (if it exists), 
    then extract the archive you just downloaded into /usr/local, creating a fresh Go tree in /usr/local/go:
