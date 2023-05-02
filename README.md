@@ -41,6 +41,10 @@ This are example code for TinyGo on raspberry pi pico200
     $ tinygo version
     tinygo version 0.27.0 linux/amd64 (using go version go1.20 and LLVM version 1
     
+  By using TinyGo you can actually compile and run a binary on a variety of bare metal hardware platforms.
+  
+      tinygo flash -target=microbit ./main.go
+    
 ## 3. VS Code
   In VS Code, you can edit the file .vscode/settings.json in the root of your project. 
   If the .vscode directory does not yet exist, create it. It’s a normal JSON file where you need to set the go.toolsEnvVars property.
