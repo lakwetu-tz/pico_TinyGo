@@ -8,16 +8,16 @@ This are example code for TinyGo on raspberry pi pico200
    Remove any previous Go installation by deleting the /usr/local/go folder (if it exists), 
    then extract the archive you just downloaded into /usr/local, creating a fresh Go tree in /usr/local/go:
 
-   $ rm -rf /usr/local/go && tar -C /usr/local -xzf go1.20.3.linux-amd64.tar.gz
+      $ rm -rf /usr/local/go && tar -C /usr/local -xzf go1.20.3.linux-amd64.tar.gz
 
 
    add the following line to your $HOME/.profile or /etc/profile (for a system-wide installation):
 
-   export PATH=$PATH:/usr/local/go/bin
+      export PATH=$PATH:/usr/local/go/bin
    
    erify that you've installed Go by opening a command prompt and typing the following command:
     
-   $ go version
+      $ go version
 
   You're all set!
   
@@ -28,8 +28,8 @@ This are example code for TinyGo on raspberry pi pico200
   If you are using Ubuntu or another Debian based Linux on an Intel processor, 
   download the DEB file from Github and install it using the following   commands:
 
-   wget https://github.com/tinygo-org/tinygo/releases/download/v0.27.0/tinygo_0.27.0_amd64.deb
-   sudo dpkg -i tinygo_0.27.0_amd64.deb
+      wget https://github.com/tinygo-org/tinygo/releases/download/v0.27.0/tinygo_0.27.0_amd64.deb
+      sudo dpkg -i tinygo_0.27.0_amd64.deb
    
    You will need to ensure that the path to the tinygo executable file is in your PATH variable.
 
